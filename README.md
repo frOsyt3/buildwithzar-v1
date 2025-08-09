@@ -209,13 +209,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - [Vite](https://vitejs.dev/) for the fast build tool
 - [Heroicons](https://heroicons.com/) for the beautiful icons
 
-## 📞 Contact
-
-If you have any questions or suggestions, feel free to reach out:
-
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourusername)
 
 ---
 
