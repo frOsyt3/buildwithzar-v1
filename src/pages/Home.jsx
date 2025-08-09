@@ -1,6 +1,6 @@
 import { bio } from '../config/projects';
 import { skillsData, skillCategories } from '../config/skills';
-
+import { Link } from 'react-router-dom'; 
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20">
@@ -63,18 +63,18 @@ const Home = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a
-                href="/projects"
+              <Link
+                to="/projects"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 View My Work
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 transform hover:scale-105"
               >
                 Get In Touch
-              </a>
+              </Link>
             </div>
 
             {/* Scroll Indicator */}
