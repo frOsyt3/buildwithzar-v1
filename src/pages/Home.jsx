@@ -31,7 +31,7 @@ const Home = () => {
               <div className="relative inline-block">
                 {/* Option 1: Use Profile Image */}
                 <img 
-                  src="/images/profile.jpg" 
+                  src="/images/najar.jpg" 
                   alt={bio.name}
                   className="w-48 h-48 rounded-full mx-auto border-4 border-white dark:border-gray-800 shadow-2xl object-cover"
                 />

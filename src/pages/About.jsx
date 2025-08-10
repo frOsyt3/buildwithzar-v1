@@ -22,7 +22,7 @@ const About = () => {
             <div className="text-center mb-8">
               {/* Option 1: Use Image */}
               <img 
-                src="/images/profile.jpg" 
+                src="/images/najar.jpg" 
                 alt="Nazar Nur Fauzan" 
                 className="w-48 h-48 rounded-full mx-auto mb-4 object-cover border-4 border-blue-500"
               />
